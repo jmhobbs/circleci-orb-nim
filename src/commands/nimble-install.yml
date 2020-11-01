@@ -1,10 +1,11 @@
 description: >
   This command installs packages with nimble.
-package:
-  type: string
-  default: ""
-  description: >
-    Package to install.
+parameters:
+  package:
+    type: string
+    default: ""
+    description: >
+      Package to install.
 steps:
   - run:
       environment:
