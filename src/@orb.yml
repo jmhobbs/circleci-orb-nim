@@ -5,4 +5,4 @@ description: >
 
 display:
   home_url: "https://nim-lang.org/"
-  source_url: "https://github.con/jmhobbs/circleci-orb-nim"
+  source_url: "https://github.com/jmhobbs/circleci-orb-nim"
