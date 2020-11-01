@@ -1,11 +1,9 @@
 description: >
-  This is a sample executor using Docker and Node.
+  Select the version of Nim tooling to use.
 docker:
-  - image: 'cimg/node:<<parameters.tag>>'
+  - image: 'nimlang/nim:<<parameters.version>>'
 parameters:
-  tag:
-    default: lts
-    description: >
-      Pick a specific circleci/node image variant:
-      https://hub.docker.com/r/cimg/node/tags
+  version:
+    default: latest
+    description: Select a Nim version, i.e. "0.16.0"
     type: string
