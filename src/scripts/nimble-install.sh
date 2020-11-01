@@ -1,5 +1,5 @@
 NimbleInstall() {
-    nimble install "${PARAM_PACKAGE}"
+    nimble -y install "${PARAM_PACKAGE}"
 }
 
 # Will not run if sourced for bats-core tests.

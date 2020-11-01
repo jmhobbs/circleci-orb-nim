@@ -29,6 +29,10 @@ jobs:
     steps:
       - checkout
       - nim/install
+      - run: wget https://gist.githubusercontent.com/jmhobbs/61818db93dfdb9dc384a175d8aa4aa7f/raw/8518294977bb7030b4472558bf21af491ab60fc1/test.nim
+      - nim/test
+      - nim/nimble-install:
+          package: mike
 
 workflows:
   # Prior to producing a development orb (which requires credentials) basic validation, linting, and even unit testing can be performed.
