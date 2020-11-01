@@ -1,0 +1,6 @@
+description: >
+  This command installs the latest version of Nim
+steps:
+  - run:
+      name: Install
+      command: <<include(scripts/install.sh)>>

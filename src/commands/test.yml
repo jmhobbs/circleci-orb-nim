@@ -1,0 +1,14 @@
+description: >
+  This command runs Nim unit tests.
+parameters:
+  target:
+    type: string
+    default: ""
+    description: >
+      Tests, suites or patterns to run tests on.
+steps:
+  - run:
+      environment:
+        PARAM_TARGET: <<parameters.target>>
+      name: Test
+      command: <<include(scripts/test.sh)>>

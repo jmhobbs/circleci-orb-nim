@@ -1,14 +1,8 @@
-# Orb Project Template
+# Nim Orb for CircleCI
 
 [![CircleCI Build Status](https://circleci.com/gh/jmhobbs/circleci-orb-nim.svg?style=shield "CircleCI Build Status")](https://circleci.com/gh/jmhobbs/circleci-orb-nim) [![CircleCI Orb Version](https://img.shields.io/badge/endpoint.svg?url=https://badges.circleci.io/orb/jmhobbs/nim)](https://circleci.com/orbs/registry/orb/jmhobbs/nim) [![GitHub License](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/jmhobbs/circleci-orb-nim/master/LICENSE) [![CircleCI Community](https://img.shields.io/badge/community-CircleCI%20Discuss-343434.svg)](https://discuss.circleci.com/c/ecosystem/orbs)
 
-
-
-A starter template for orb projects. Build, test, and publish orbs automatically on CircleCI with [Orb-Tools](https://circleci.com/orbs/registry/orb/circleci/orb-tools).
-
 Additional READMEs are available in each directory.
-
-
 
 ## Resources
 
@@ -38,4 +32,3 @@ Example: `[semver:major]`
 
 
 For further questions/comments about this or other orbs, visit the Orb Category of [CircleCI Discuss](https://discuss.circleci.com/c/orbs).
-
