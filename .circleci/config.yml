@@ -28,8 +28,6 @@ jobs:
       - image: cimg/base:stable
     steps:
       - checkout
-      - run: sudo apt-get update
-      - run: sudo apt-get install wget xz-utils
       - nim/install
       - nim/test
 
