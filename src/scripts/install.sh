@@ -2,7 +2,7 @@ Install() {
   wget https://nim-lang.org/download/nim-1.4.0-linux_x64.tar.xz
   tar -xf nim-1.4.0-linux_x64.tar.xz
   cd nim-1.4.0 || return
-  bash ./install.sh /usr/local/bin
+  sudo bash ./install.sh /usr/local/bin
 }
 
 # Will not run if sourced for bats-core tests.
