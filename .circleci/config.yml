@@ -29,6 +29,14 @@ jobs:
     steps:
       - checkout
       - nim/install
+      - run: |
+          cat <<EOF > test.nim
+          import unittest
+
+          suite "description for this stuff":
+            test "essential truths":
+              require(true)
+          EOF
       - nim/test
 
 workflows:
